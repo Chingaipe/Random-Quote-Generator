@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+a.btn {
+  position: absolute;
+  margin-top: 10px;
+  align-items: baseline;
+  top: 0;
+  right: 24px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #f3f3f3;
+}
+
+.icon {
+  width: .95rem;
+  height: .95rem;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qouteSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* width: 50%; */
+}
+
+.allQuotesSection {
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+.quote {
+  border-left: 5px #F7DF94 solid;
+  padding-left: 45px;
+  font-size: 36px;
+  line-height: 33px;
+  margin-bottom: 60px;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.authorSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 0 40px;
+  padding: 16px 14px;
+}
+
+.authorSection span {
+  display: block;
+}
+
+.authorSection:hover {
+  background-color: #333333;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.author {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.genre {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.arrow {
+  fill: whitesmoke;
+  font-size: 10px;
+}
+
+.footer {
+  position: fixed;
+  margin-bottom: 10px;
+  bottom: 0;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+}

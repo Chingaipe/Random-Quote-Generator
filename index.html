@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Qoute Generator</title>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <a href="./index.html" class="btn">
+    random
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+      <path d="M10 3v2a5 5 0 0 0-3.54 8.54l-1.41 1.41A7 7 0 0 1 10 3zm4.95 2.05A7 7 0 0 1 10 17v-2a5 5 0 0 0 3.54-8.54l1.41-1.41zM10 20l-4-4 4-4v8zm0-12V0l4 4-4 4z"/>
+    </svg>
+  </a>
+
+  <div class="centered">
+    <div id="singleQuote" class="qouteSection">
+      <div id="quoteText" class="quote"></div>
+      <a onclick="getAuthorQuotes()" class="authorSection">
+        <p>
+          <span id="author" class="author"></span>
+          <span id="genre" class="genre"></span>
+        </p>
+        <div>
+          <svg class="icon arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+            <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <div id="authorQuotes" class="allQuotesSection" style="display: none;">
+      <h3 id="theAuthor" class="author"></h3>
+      <div id="theQuote"></div>
+    </div>
+  </div>
+
+  <footer class="footer">Chingaipe @ DevChallenges.io</footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
